@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Kek2
 {
     public  class Class
-    {
+    {   
         public static List<double> SolveQuadraticEquation(double a, double b, double c)
         {
             List<double> roots = new List<double>();
