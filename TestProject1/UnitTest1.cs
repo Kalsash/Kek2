@@ -1,7 +1,4 @@
-
-using Microsoft.VisualStudio.TestPlatform.TestHost;
-using Assert = NUnit.Framework.Assert;
-using  Kek2;
+using Kek2;
 namespace TestProject1
 {
     public class Tests
@@ -21,7 +18,7 @@ namespace TestProject1
             
             List<double> roots = Class.SolveQuadraticEquation(a, b, c);
             List<double> expected_roots = new List<double> { 2 };
-            Assert.AreEqual(0, 0); // to check that we are ready to test
+            Assert.AreEqual(0, 1); // to check that we are ready to test
 
             Assert.AreEqual(roots.Count, expected_roots.Count);
 
